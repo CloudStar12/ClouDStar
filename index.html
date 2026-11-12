@@ -31,7 +31,7 @@
     .brand { display: flex; flex-direction: column; align-items: stretch; gap: 8px; padding: 0 8px 23px; }
     .brand-logo-frame, .report-logo-frame { position: relative; overflow: hidden; background: #020609; border-radius: 11px; }
     .brand-logo-frame { width: 100%; height: 108px; box-shadow: 0 5px 15px #142c4520; }
-    .brand-logo-frame img, .report-logo-frame img { position: absolute; width: 200%; max-width: none; height: auto; left: 50%; top: 50%; display: block; transform: translate(-50%, -50%); }
+    .brand-logo-frame img, .report-logo-frame img { position: absolute; width: 180%; max-width: none; height: auto; left: 50%; top: 50%; display: block; transform: translate(-50%, -50%); }
     .brand-mark { width: 38px; height: 38px; display: grid; place-items: center; color: white; border-radius: 13px; background: linear-gradient(145deg, #66c9fb, #1687d4); box-shadow: 0 6px 13px #1687d43b; }
     .brand-name { font-size: 17px; font-weight: 760; letter-spacing: -.5px; }
     .brand-sub { color: var(--muted); font-size: 9px; letter-spacing: 1.3px; text-transform: uppercase; margin-top: 0; font-weight: 700; text-align: center; }
@@ -327,7 +327,7 @@
   <div class="app-shell">
     <aside class="sidebar" id="sidebar">
       <div class="brand">
-        <div class="brand-logo-frame"><img src="assets/cloudstar-logo.jpg" alt="CloudStar — Technology is our passion"></div>
+        <div class="brand-logo-frame"><img src="assets/cloudstar-logo.png" alt="CloudStar — Technology is our passion"></div>
         <div class="brand-sub">ISP Manager</div>
       </div>
       <div class="nav-label">Workspace</div>
@@ -450,7 +450,7 @@
               <button class="btn" id="previewReport">Update preview&nbsp; →</button>
             </div>
             <div class="card report-preview"><div class="report-preview-head"><div><h2 class="section-title">Report preview</h2><div class="section-caption">Review the contents before exporting.</div></div><div class="report-actions"><button class="btn secondary small" id="exportCsv">Download CSV</button><button class="btn secondary small" id="exportExcel">Download Excel</button><button class="btn small" id="printReport">Print / PDF</button></div></div>
-              <div class="report-paper" id="reportPaper"><div class="report-brand"><div class="report-logo-frame"><img src="assets/cloudstar-logo.jpg" alt="CloudStar — Technology is our passion"></div><div class="report-date"><strong>ORGANIZATION PERFORMANCE</strong><br>Prepared November 12, 2026</div></div><h2 id="reportTitle">Executive Summary</h2><div class="report-sub" id="reportScope">All departments · November 2026</div><hr class="report-rule"><div class="report-highlights" id="reportHighlights"><div class="report-highlight"><span>Roadmap completion</span><strong>74%</strong></div><div class="report-highlight"><span>Active customers</span><strong>4,286</strong></div><div class="report-highlight"><span>Network uptime</span><strong>99.96%</strong></div></div><p class="report-copy" id="reportDescription">CloudStar’s November roadmap is 74% complete. Customer growth and network reliability are on track. Review collections, operating cost controls and new business services at the next leadership check-in.</p><div class="table-wrap"><table class="report-table"><thead><tr id="reportHead"><th>Measure</th><th>Target</th><th>Actual</th><th>Status</th></tr></thead><tbody id="reportRows"></tbody></table></div><div class="report-disclaimer">Illustrative sample data for prototype review. In the live ISP Manager, report figures should be sourced from approved operational records and targets.</div></div>
+              <div class="report-paper" id="reportPaper"><div class="report-brand"><div class="report-logo-frame"><img src="assets/cloudstar-logo.png" alt="CloudStar — Technology is our passion"></div><div class="report-date"><strong>ORGANIZATION PERFORMANCE</strong><br>Prepared November 12, 2026</div></div><h2 id="reportTitle">Executive Summary</h2><div class="report-sub" id="reportScope">All departments · November 2026</div><hr class="report-rule"><div class="report-highlights" id="reportHighlights"><div class="report-highlight"><span>Roadmap completion</span><strong>74%</strong></div><div class="report-highlight"><span>Active customers</span><strong>4,286</strong></div><div class="report-highlight"><span>Network uptime</span><strong>99.96%</strong></div></div><p class="report-copy" id="reportDescription">CloudStar’s November roadmap is 74% complete. Customer growth and network reliability are on track. Review collections, operating cost controls and new business services at the next leadership check-in.</p><div class="table-wrap"><table class="report-table"><thead><tr id="reportHead"><th>Measure</th><th>Target</th><th>Actual</th><th>Status</th></tr></thead><tbody id="reportRows"></tbody></table></div><div class="report-disclaimer">Illustrative sample data for prototype review. In the live ISP Manager, report figures should be sourced from approved operational records and targets.</div></div>
             </div>
           </div>
         </section>
